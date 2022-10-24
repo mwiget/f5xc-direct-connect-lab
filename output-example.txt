@@ -1,0 +1,22 @@
+aws-site-1 = {
+  "f5xc_aws_vpc" = {
+    "id" = "95ec1e26-1504-4cf6-994d-353781ca05df"
+    "instance_type" = "t3.xlarge"
+    "name" = "mw-aws-site-1"
+    "params" = {
+      "action" = "apply"
+      "id" = "c550f52c-c018-4b43-ac5c-e9fb299723fd"
+      "ignore_on_update" = false
+      "site_kind" = "aws_vpc_site"
+      "site_name" = "mw-aws-site-1"
+      "tf_output" = ""
+      "wait_for_action" = true
+    }
+    "public_ip" = "52.72.94.36"
+    "region" = "us-east-1"
+    "sli_ip" = "192.168.168.92"
+    "slo_ip" = "192.168.168.170"
+    "vpc_id" = "vpc-06912bbe5ff3e8e74"
+    "workload_subnet_id" = "subnet-0bd86a3812cccc7e6"
+  }
+}
